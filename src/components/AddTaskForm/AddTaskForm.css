@@ -1,12 +1,13 @@
 .form-task {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 15px;
   margin-bottom: 30px;
 }
 
 .task-message {
   width: 100%;
+  padding: 8px 5px 0 5px;
 }
 
 .send-btn {
@@ -22,4 +23,3 @@
 .send-btn:hover {
   background: #0069d9;
 }
-

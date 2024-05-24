@@ -14,7 +14,7 @@ const Task: React.FC<Props> = ({task, onDelete}) => {
     <div className="task-inner">
       <div className="message-inner">
         <p className="message">{task.message}</p>
-        <button className="delete-btn" onClick={() => onDelete(task.id)}>Delete</button>
+        <button type="button" className="delete-btn" onClick={() => onDelete(task.id)}>Delete</button>
       </div>
     </div>
   );
