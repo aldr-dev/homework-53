@@ -1,0 +1,33 @@
+.message {
+  margin: 0;
+}
+
+.task-inner {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-inner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.delete-btn {
+  border: none;
+  margin-left: auto;
+  border-radius: 5px;
+  background: #28a745;
+  color: #fff;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.delete-btn:hover {
+  background: #218838;
+}

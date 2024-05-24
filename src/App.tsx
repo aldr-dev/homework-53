@@ -28,7 +28,7 @@ const App = () => {
     <>
       <h1>ToDo List</h1>
       <AddTaskForm onSubmit={addTask}/>
-      <div>
+      <div className="container-tasks">
         {tasks.map(task => (
           <Task key={task.id} task={task} onDelete={deleteTask}/>
         ))}
