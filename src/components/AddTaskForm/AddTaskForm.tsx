@@ -1,4 +1,5 @@
 import React, {ChangeEvent, useState} from 'react';
+import './AddTaskForm.css';
 
 interface Props {
   onSubmit: (message: string) => void;

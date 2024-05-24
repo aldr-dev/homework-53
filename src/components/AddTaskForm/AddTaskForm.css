@@ -1,0 +1,10 @@
+.form-task {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.task-message {
+  width: 100%;
+  padding: 8px 5px;
+}
